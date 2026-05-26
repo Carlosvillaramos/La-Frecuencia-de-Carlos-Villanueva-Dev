@@ -37,48 +37,11 @@
                 <p class="subtitulo">Tu Voz y Tu Música 🎙️</p>
                 <p class="subtitulo">Tecnología • Deportes • Radio — Desde Cartago, Costa Rica 🇨🇷</p>
                 <a href="#en-vivo" class="btn btn-principal">
-                    <i class="fas fa-broadcast-tower"></i> Escuchar Ahora
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="en-vivo">
-        <div id="radio-container">
-    <button onclick="cargarRadio()" class="btn btn-radio">
-        <i class="fas fa-play"></i> Reproducir Radio en Vivo
-    </button>
-    <div id="reproductor"></div>
-  </div>
-
-     <h1>Controles de Audio</h1>
-      <button type="button">Reproducir</button>
-     <div>
-         <span id="volumen-label">Volumen</span>
-         <span id="volumen-description">Ajustando el nivel de sonido</span>
-         <input type="range" min="0" max="100" value="50" aria-labelledby="volumen-label volumen-description">
-    </div>
-     <button type="button">Silenciar</button>
-
-
-   <script>
-    function cargarRadio() {
-        document.getElementById('reproductor').innerHTML = `
-            <iframe
-                src="https://lavoz23.radio12345.com"
-                width="100%"
-                height="200"
-                frameborder="0"
-                scrolling="no"
-                title="La Frecuencia de Carlos"
-                style="border-radius: 8px; margin-top: 15px;">
-            </iframe>
-        `;
-        document.querySelector('button').style.display = 'none';
-    }
-</script>
-    </section>
-
+                    <i class="fas fa-play"></i> Reproducir Radio en Vivo
+                <audio controls>
+                    <source src="https://sapircast.caster.fm/Gd0Xt" type="audio/mpeg">
+                </audio>
+                    
     <section id="blog-tech">
         <div class="container">
             <h2>💻 Blog Tecnológico</h2>
