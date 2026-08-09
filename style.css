@@ -136,21 +136,6 @@ header a:hover {
     margin-bottom: 8px;
 }
 
-/* ========== EN VIVO ========== */
-#en-vivo {
-    background-color: var(--azul-oscuro);
-    padding: 20px 0;
-}
-
-#en-vivo h2 {
-    color: var(--blanco);
-}
-
-/* ========== BLOG TECH ========== */
-#blog-tech {
-    background-color: var(--blanco);
-    padding: 20px 0;
-}
 
 /* ========== ZONA DEPORTIVA ========== */
 #zona-deportiva {
