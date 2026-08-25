@@ -376,3 +376,14 @@ footer p {
         justify-content: center;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Evita que el navbar fijo tape el contenido */
+}
+
+/* Marca con un color activo la página en la que estás navegando */
+.menu a.active {
+    color: var(--naranja);
+    border-bottom: 2px solid var(--naranja);
+}
