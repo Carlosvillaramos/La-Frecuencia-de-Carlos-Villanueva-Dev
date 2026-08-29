@@ -387,3 +387,27 @@ html {
     color: var(--naranja);
     border-bottom: 2px solid var(--naranja);
 }
+
+.imagen-articulo {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+.Los-Gigantes-de-Nueva-York-NFL {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+.Brandon-jones {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 6px;
+}
